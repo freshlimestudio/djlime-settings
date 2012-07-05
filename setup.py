@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from os.path import join, dirname
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 from settings import __version__
 
@@ -19,7 +19,7 @@ setup(
     long_description=long_description(),
     version = __version__,
     license='BSD',
-    packages=['settings', 'settings.templatetags'],
+    packages=find_packages(),
     include_package_data=True,
     platforms='any',
     classifiers=['Framework :: Django',
