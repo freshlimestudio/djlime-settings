@@ -1,0 +1,8 @@
+*.pyc
+*.pyo
+*.pyw
+.idea
+.pypirc
+*~
+/djlime_settings.egg-info/
+/dist/
