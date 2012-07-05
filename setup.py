@@ -19,7 +19,7 @@ setup(
     long_description=long_description(),
     version = __version__,
     license='BSD',
-    packages=['settings'],
+    packages=['settings', 'settings.templatetags'],
     include_package_data=True,
     platforms='any',
     classifiers=['Framework :: Django',

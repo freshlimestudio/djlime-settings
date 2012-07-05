@@ -4,5 +4,6 @@
 .idea
 .pypirc
 *~
+/MANIFEST
 /djlime_settings.egg-info/
 /dist/
